@@ -11,5 +11,22 @@ export class CarlistComponent implements OnInit {
 
   ngOnInit(): void {
   }
+   car = [
+{	img:"",
+	model: "",
+	price: "",
+	color: "",
+	type:"",
+	passenger:""
+},{
+	img:"",
+	model: "",
+	price: "",
+	color: "",
+	type:"",
+	passenger:""
+
+}
+];
 
 }
