@@ -1,1 +1,39 @@
-<p>carlist works!</p>
+<div id="restaurantscontainer" class="mt-5 container">
+      <center>
+       <div id="resItems" class="row alert">
+       	<div *ngFor="let car of cars">
+        <div class="card divResItem col-xs-12 col-md-6 col-lg-3 mr-5 mb-5">
+            	<!-- <div>
+                	<h4 class="card-title m-3">` + item.name + `</h4>
+                	<input type="text" class="rating rating-loading" value="` + item.rate + `" data-size="xs" title="">
+    			</div> -->
+<!--               	<div class="stadt brandon smaller m-2">
+              	  	<a rel="nofollow" href="https://www.diefruehstueckerinnen.at/stadt/wien/5" class="city-link">
+              	  	<img src="img/location.png" alt="location">Wien, ` + item.district + ` Bezirk</a>
+              	</div> -->
+              	<div class="DivresImg">         	
+              		<img class="card-img-bottom resImg" src="{{car.img}}" alt="Card image cap">
+              		<div class="middle text p-2">
+              			<div>
+							{{car.model}}
+						</div>
+              			<div>
+    			 			<img class="left" src="img/location.png" alt="location"> {{car.price}}
+						</div>
+						<div>
+						 	{{car.color}}
+						</div>
+						<div>
+							{{car.type}}
+						</div>
+						<div>
+							{{car.passenger}}
+						</div>
+					</div>
+  				</div>
+            </div>
+</div>
+       </div>
+      </center>
+    </div>
+
