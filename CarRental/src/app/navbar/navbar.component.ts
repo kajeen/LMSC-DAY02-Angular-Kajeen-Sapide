@@ -7,10 +7,17 @@ import { FormControl } from '@angular/forms';
   styleUrls: ['./navbar.component.css']
 })
 export class NavbarComponent implements OnInit {
+	DonateCounter :number = 0;
 
   constructor() { }
 
+
   ngOnInit(): void {
   }
+   donateClick(){
+
+         this.DonateCounter += 10;
+
+ }
 
 }
