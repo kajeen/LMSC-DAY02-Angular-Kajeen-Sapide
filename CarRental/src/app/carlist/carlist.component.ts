@@ -27,6 +27,42 @@ export class CarlistComponent implements OnInit {
 	passenger:"5"
 
 }
+,{
+	img:"/assets/img/car3.jpg",
+	model: "Audi.",
+	price: "6000",
+	color: "white",
+	type:"automatic",
+	passenger:"5"
+
+}
+,{
+	img:"/assets/img/car4.jpg",
+	model: "Audi.",
+	price: "6000",
+	color: "white",
+	type:"automatic",
+	passenger:"5"
+
+}
+,{
+	img:"/assets/img/car5.jpg",
+	model: "Audi.",
+	price: "6000",
+	color: "white",
+	type:"automatic",
+	passenger:"5"
+
+}
+,{
+	img:"/assets/img/car6.jpg",
+	model: "Audi.",
+	price: "6000",
+	color: "white",
+	type:"automatic",
+	passenger:"5"
+
+}
 ];
 
 }

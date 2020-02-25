@@ -1,41 +1,46 @@
-#carsContainer{
+#carsContainer {
   width: 100% !important;
   border: 1px solid black;
 }
-.divResItem {
+
+.divCarItem {
   text-align: left !important;
   padding-left: 0px !important;
   padding-right: 0px !important;
   display: flex !important;
   flex-direction: column !important;
-  justify-content: space-between !important; }
-  @media screen and (min-width: 700px) {
-    .divResItem {
-      max-width: 22% !important;
-      max-height: 400px !important; } }
+  justify-content: space-between !important;
+}
+
+@media screen and (min-width: 700px) {
+  .divCarItem {
+    max-width: 22% !important;
+    max-height: 400px !important;
+  }
+}
+
 .stadt {
   display: inline-block;
   padding: 0 8px;
   line-height: 18px;
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 20px;
-  width: 70% !important; }
-.DivresImg {
-  position: relative;
-  bottom: 0 !important; }
+  width: 70% !important;
+}
 
-.resImg {
-  display: block;
-  width: 100%;
-  height: auto; }
-  .resImg {
-  display: block;
-  width: 100%;
-  height: auto; }
-.DivresImg {
+.divCarsImg {
   position: relative;
-  bottom: 0 !important; }
-.text {
+  bottom: 0 !important;
+}
+
+.carImg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.carDetail {
   color: white;
   font-size: calc(100vw / 80);
   position: absolute;
@@ -44,17 +49,18 @@
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: left !important; }
-  .middle:hover {
-  opacity: 1; }
-.middle {
+  text-align: left !important;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: #008CBA; }
+  
+}
+
+.carDetail:hover {
+  opacity: 1;
+}
+
+
