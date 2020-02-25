@@ -5,7 +5,7 @@
         <a class="nav-link" routerLink="/">Home <span class="sr-only"></span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" routerLink="">Contact <span class="sr-only"></span></a>
+        <a class="nav-link" routerLink="/contact">Contact <span class="sr-only"></span></a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" routerLink="">Add Car <span class="sr-only"></span></a>
@@ -13,12 +13,12 @@
     </ul>
     <div class="d-flex justify-content-around">
     	<ng-template [ngIf]="DonateCounter >= 200" [ngIfElse]="none">
-    	<span>You are VIP</span>
+    	<span class="text-success">You are VIP </span>
     </ng-template>
     <ng-template #none>
     	<span></span>
     	</ng-template>
-    	<span>{{DonateCounter}}</span><input type="button" (click)="donateClick()" name="">
+    	<span class="pl-2 pr-2"> {{DonateCounter}} </span><input type="button" (click)="donateClick()" name="" value="+10">
     </div>
     
   </div>
