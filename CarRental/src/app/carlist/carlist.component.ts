@@ -12,14 +12,14 @@ export class CarlistComponent implements OnInit {
   ngOnInit(): void {
   }
    cars = [
-{	img:"img/car1.jpg",
+{	img:"/assets/img/car1.jpg",
 	model: "Volkswagen",
 	price: "4000",
 	color: "red",
 	type:"normal",
 	passenger:"5"
 },{
-	img:"img/car2",
+	img:"/assets/img/car2.jpg",
 	model: "Audi.",
 	price: "6000",
 	color: "white",

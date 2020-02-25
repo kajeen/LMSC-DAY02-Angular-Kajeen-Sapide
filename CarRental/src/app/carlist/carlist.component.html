@@ -1,8 +1,6 @@
 <div id="restaurantscontainer" class="mt-5 container">
-      <center>
-       <div id="resItems" class="row alert">
-       	<div *ngFor="let car of cars">
-        <div class="card divResItem col-xs-12 col-md-6 col-lg-3 mr-5 mb-5">
+       <div id="resItems" class="row alert" *ngFor="let car of cars">
+        <div class="card divResItem col-xs-12 col-md-6 col-lg-3 mr-5 mb-5" >
             	<!-- <div>
                 	<h4 class="card-title m-3">` + item.name + `</h4>
                 	<input type="text" class="rating rating-loading" value="` + item.rate + `" data-size="xs" title="">
@@ -33,7 +31,5 @@
   				</div>
             </div>
 </div>
-       </div>
-      </center>
     </div>
 
