@@ -7,9 +7,31 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewCarComponent implements OnInit {
 
-  constructor() { }
+  
+  car = [
+	  {	    img:"",
+			model: "",
+			price: "",
+			color: "",
+			type:"",
+			passenger:""
+	   },{	    img:"",
+			model: "",
+			price: "",
+			color: "",
+			type:"",
+			passenger:""
+	   }]
 
   ngOnInit(): void {
   }
 
+
+  submit()
+  {
+	console.table(this.car);
+	  
+   }
+
+constructor() { }
 }
